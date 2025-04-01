@@ -1,0 +1,16 @@
+{
+  "packageManager": "yarn@4.8.1",
+  "devDependencies": {
+    "tsx": "^4.19.3",
+    "wrangler": "^4.6.0"
+  },
+  "dependencies": {
+    "hono": "^4.7.5",
+    "ofetch": "^1.4.1"
+  },
+  "type": "module",
+  "scripts": {
+    "dev:server": "wrangler dev --port 8000 server.ts",
+    "dev:client": "tsx client.ts"
+  }
+}
