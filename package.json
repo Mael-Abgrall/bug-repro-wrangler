@@ -5,12 +5,14 @@
     "wrangler": "^4.6.0"
   },
   "dependencies": {
+    "@hono/node-server": "^1.14.0",
     "hono": "^4.7.5",
     "ofetch": "^1.4.1"
   },
   "type": "module",
   "scripts": {
     "dev:server": "wrangler dev --port 8000 server.ts",
+    "dev:node": "tsx server-node.ts",
     "dev:client": "tsx client.ts"
   }
 }

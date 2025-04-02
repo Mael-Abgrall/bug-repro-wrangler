@@ -437,6 +437,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@hono/node-server@npm:^1.14.0":
+  version: 1.14.0
+  resolution: "@hono/node-server@npm:1.14.0"
+  peerDependencies:
+    hono: ^4
+  checksum: 10c0/8a012f07afd17afa40b48dc2684e6023233cd84c89cd862b97bae284a979471ce442ccd5709f06a76115e29cee1665b349984b9aa3321bde8be3081a4b043e4f
+  languageName: node
+  linkType: hard
+
 "@img/sharp-darwin-arm64@npm:0.33.5":
   version: 0.33.5
   resolution: "@img/sharp-darwin-arm64@npm:0.33.5"
@@ -1649,6 +1658,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
+    "@hono/node-server": "npm:^1.14.0"
     hono: "npm:^4.7.5"
     ofetch: "npm:^1.4.1"
     tsx: "npm:^4.19.3"

@@ -13,3 +13,10 @@ Start the client in a new console
 yarn dev:client
 # then hit ctrl + c at any point to cancel the dev:client, and look at the logs from the server
 ```
+
+To compare with Node:
+
+```shell
+# replace yarn dev:api by
+yarn dev:node
+```
