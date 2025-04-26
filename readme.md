@@ -4,7 +4,7 @@ Install the packages & start the server
 
 ```shell
 yarn
-yarn dev:api
+yarn dev:server
 ```
 
 Start the client in a new console
